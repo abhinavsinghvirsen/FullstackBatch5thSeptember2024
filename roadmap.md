@@ -71,3 +71,60 @@
 | **Core AWS Services**                                          | **Advanced AWS**                                                     |
 |----------------------------------------------------------------|----------------------------------------------------------------------|
 | EC2 (Elastic Compute Cloud), S3 (Simple Storage Service), RDS (Relational Database Service), IAM (Identity and Access Management) | AWS Lambda (Serverless), API Gateway, AWS CloudFormation, Elastic Beanstalk, Monitoring and Logging with CloudWatch, Security Best Practices |
+
+
+## OAuth 2.0
+
+### Basics
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - Overview of OAuth 2.0                                                                                       |
+| - Key Components: Authorization Server, Resource Server, Client, Resource Owner                              |
+| - OAuth 2.0 Grant Types: Authorization Code, Implicit, Resource Owner Password Credentials, Client Credentials, Refresh Token |
+| - Scopes and Permissions                                                                                       |
+| - Tokens: Access Tokens, Refresh Tokens, ID Tokens                                                            |
+
+### Configuring OAuth 2.0 with Spring Boot
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - OAuth 2.0 Client Configuration                                                                              |
+| - Application Properties: `application.yml` or `application.properties`                                        |
+| - Spring Security Configuration                                                                               |
+| - OAuth 2.0 Authorization Code Flow                                                                          |
+| - Handling Tokens                                                                                             |
+
+### User Management
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - Fetching User Information                                                                                   |
+| - Custom User Details Service                                                                                |
+| - Managing User Roles and Permissions                                                                        |
+
+### Advanced Topics
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - Custom OAuth 2.0 Authorization Server                                                                      |
+| - OAuth 2.0 Security Best Practices                                                                          |
+| - Integration with External Providers (e.g., Google, GitHub)                                                 |
+| - Testing OAuth 2.0 Integration                                                                             |
+| - Error Handling                                                                                             |
+
+### Additional Tools and Libraries
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - Spring Security OAuth2 Features                                                                            |
+| - OAuth 2.0 Libraries and Tools                                                                             |
+
+### Real-World Scenarios
+
+| **Subtopics**                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| - OAuth 2.0 in Microservices Architecture                                                                    |
+| - Single Sign-On (SSO) Implementation                                                                         |
+| - Securing REST APIs with OAuth 2.0                                                                          |
+
