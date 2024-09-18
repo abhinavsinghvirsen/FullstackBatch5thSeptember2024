@@ -20,7 +20,7 @@ public class SampleTest {
 
         SampleTest obj = new SampleTest();
 
-        System.out.println(obj.val);
+       // System.out.println(obj.val);
 
 
         int a,b,c;
