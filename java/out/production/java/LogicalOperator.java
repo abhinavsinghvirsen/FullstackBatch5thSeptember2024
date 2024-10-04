@@ -43,10 +43,15 @@ public class LogicalOperator {
 
 
 
-        int a=12;
+      /*  int a=12;
         boolean b= a>15 || a++<5;
         System.out.println(a); //13
         System.out.println(b); //true
+*/
+
+
+
+
 
 
 
