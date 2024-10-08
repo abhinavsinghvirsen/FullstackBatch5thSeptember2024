@@ -10,7 +10,7 @@ public class VirtualThread {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // first way  Using the Thread Class and the Thread.Builder Interface to Create a Virtual Thread
+   /*     // first way  Using the Thread Class and the Thread.Builder Interface to Create a Virtual Thread
 
         // Initialization of thread
         Thread.Builder builder = Thread.ofVirtual().name("iamthatsoftwareguy");
@@ -34,7 +34,7 @@ public class VirtualThread {
         //2. Creating and executing a virtual thread with the Executors.newVirtualThreadPerTaskExecutor() Method
 
 
-       /* try (ExecutorService myExecutor = Executors.newVirtualThreadPerTaskExecutor()) {
+       *//* try (ExecutorService myExecutor = Executors.newVirtualThreadPerTaskExecutor()) {
             // Submit a task that prints a message
             Future<?> future = myExecutor.submit(() -> System.out.println("Running thread"));
 
@@ -44,7 +44,8 @@ public class VirtualThread {
             System.out.println("end !!");
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
-        }*/
+        }*//*
     }
-
+*/
+    }
 }
