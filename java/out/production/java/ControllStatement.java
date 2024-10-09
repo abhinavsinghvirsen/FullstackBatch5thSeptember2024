@@ -37,9 +37,6 @@ public class ControllStatement {
         int a=10;
         int b=20;
         int c=15;
-
-
-
         int max =0;
 
         if(a>b&&a>c){
@@ -57,7 +54,7 @@ public class ControllStatement {
             
         }
 
-
+        System.out.println(max);
 
 
 
