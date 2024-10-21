@@ -268,7 +268,7 @@ switch (days) {
                 break "Unknown";
         };*/
 
-        /*This word was replaced by “yield” later in Java 13.
+        /*This word was replaced by “yield" later in Java 13.
 
 return  switch (day) {
     case "Monday":
