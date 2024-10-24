@@ -47,14 +47,14 @@ public class PrimeNumberSeries {
                     if (i <= 1) {
                         continue;
                     }
-                    boolean isPrime = true;
+                    boolean status = true;
                     for (int j = 2; j <= i/2; j++) {
                         if (i % j == 0) {
-                            isPrime = false;
+                            status = false;
                             break;
                         }
                     }
-                    if (isPrime) {
+                    if (status) {
                         System.out.print(i +"\t");
                     }
                 }

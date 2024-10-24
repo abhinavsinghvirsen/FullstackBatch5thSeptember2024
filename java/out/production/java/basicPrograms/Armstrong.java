@@ -1,51 +1,38 @@
 package out.production.java.basicPrograms;
 
+import java.util.Scanner;
+
 public class Armstrong {
     public static void main(String[] args) {
 
+              //153,370,9474
 
-        int[][] A = {
-                {1, 2, 3},
-                {4, 5, 6}
-        };
-
-        int[][] B = {
-                {7, 8},
-                {9, 10},
-                {11, 12}
-        };
+                Scanner scanner = new Scanner(System.in);
+                System.out.print("Enter a number: ");
+                int num = scanner.nextInt();
 
 
-        int rowsA = A.length;
-        int colsA = A[0].length;
-        int rowsB = B.length;
-        int colsB = B[0].length;
+                int temp = num;
+                int sum = 0;
+                int n = String.valueOf(num).length();
 
 
-        if (colsA != rowsB) {
-            throw new IllegalArgumentException("Matrix multiplication is not possible. Columns of A must match rows of B.");
-        }
+
+                while (temp != 0) {
+                    int digit = temp % 10;
+                    sum += Math.pow(digit, n);
+                    temp /= 10;
+                }
 
 
-        int[][] result = new int[rowsA][colsB];
-
-
-        for (int i = 0; i < rowsA; i++) {
-            for (int j = 0; j < colsB; j++) {
-                for (int k = 0; k < colsA; k++) {
-                    result[i][j] += A[i][k] * B[k][j];
+                if (sum == num) {
+                    System.out.println(num + " is an Armstrong number.");
+                } else {
+                    System.out.println(num + " is not an Armstrong number.");
                 }
             }
-        }
 
 
-        System.out.println("Resultant Matrix:");
-        for (int[] row : result) {
-            for (int value : row) {
-                System.out.print(value + " ");
-            }
-            System.out.println();
-        }
 
-    }
+
 }
