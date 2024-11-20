@@ -23,6 +23,7 @@ class Customer{
     int cid;
     String name;
     long phone;
+    static String areaname;
     
 
     void show(){
