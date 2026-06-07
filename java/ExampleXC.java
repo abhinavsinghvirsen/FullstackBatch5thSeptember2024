@@ -12,7 +12,7 @@ public class ExampleXC {
 
      void metho1(){
 
-         System.out.println(b1); //false
+         System.out.println(b1); //falsefhfhdfhdfhfdhdfhdfh
          System.out.println(b2);//0
          System.out.println(s);//0
          System.out.println(a);//0
